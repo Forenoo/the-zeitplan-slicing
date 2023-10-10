@@ -6,7 +6,11 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@400;500;600;700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Patua+One&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/css/style.css" />
@@ -15,21 +19,78 @@
   <body>
     <header class="page-header">
       <div class="header-bg">
-        <div class="header-content">
+        <nav class="header-content">
           <div class="logo">
-            <img src="./assets/img/logo.png" alt="Zeitplan" class="img-logo">
-            <a href="#">ZEITPLAN</a>
+            <img src="./assets/img/logo.png" alt="Zeitplan" class="img-logo" />
+            <a href="#" class="text-logo">ZEITPLAN</a>
           </div>
           <ul class="nav-links">
-            <li><a href="#">Home</a></li>
+            <li><a href="#" class="link-active">Home</a></li>
             <li><a href="#">Fitur-Fitur</a></li>
             <li><a href="#">Harga</a></li>
             <li><a href="#">Testimoni</a></li>
-            <li><a href="#" class="download-btn">Download <img src="./assets/img/arrow.svg" alt=""></a></li>
+            <li>
+              <a href="#" class="download-btn"
+                >Download <img src="./assets/img/arrow.svg" alt=""
+              /></a>
+            </li>
           </ul>
-        </div>
+        </nav>
       </div>
     </header>
+    <main>
+      <div class="hero-container">
+        <div class="hero-content-wrapper">
+          <div class="main-content">
+            <h1>Sebuah cara mudah mengatur jadwal kuliah kamu</h1>
+            <p>
+              Datang kuliah terlambat karena ketiduran itu tidak masalah; datang
+              kuliah karena lupa jadwal itu sangatlah tidak keren. Aplikasi ini
+              adalah sahabat kamu sekarang, brodie~
+            </p>
+          </div>
+          <div class="main-btn">
+            <a href="#"><button class="btn-1">Learn More</button></a>
+            <a href="#"><button class="btn-2">Play Demo</button></a>
+          </div>
+          <div class="main-rating">
+            <div class="rating-top">
+              <div class="star">
+                <img src="./assets/img/star-yellow.svg" />
+                <img src="./assets/img/star-gray.svg" />
+                <img src="./assets/img/star-gray.svg" />
+                <img src="./assets/img/star-gray.svg" />
+                <img src="./assets/img/star-gray.svg" />
+              </div>
+              <p>
+                “Aplikasi sialan, ini gw jadi kagak bisa alesan lagi buat bolos
+                kelas Pak Sanusi yang galak itu! Tapi aku sekarang jadi rajin
+                kuliah, terima kasih garena!”
+              </p>
+              <div class="user-rating-profile">
+                <img src="./assets/img/unsplash_SE4Xc1WvIkU.svg" />
+                <div class="profile-content">
+                  <h5>P-Star 7</h5>
+                  <p>Mahasiswa Boating School Ny. Puff</p>
+                </div>
+                <div class="rating-arrow">
+                  <img
+                    src="./assets/img/chevron-right.png"
+                    class="arrow-right"
+                  />
+                  <img src="./assets/img/chevron-right.png" />
+                </div>
+              </div>
+            </div>
+            <div class="rating-middle"></div>
+            <div class="rating-bottom"></div>
+          </div>
+        </div>
+        <div class="hero-preview-wrapper">
+          <div>Hello World</div>
+        </div>
+      </div>
+    </main>
     <script src="./assets/js/script.js"></script>
   </body>
 </html>
